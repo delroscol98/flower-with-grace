@@ -16,6 +16,20 @@ module.exports = {
       "neutral-beige": "#FFEFD8",
       "neutral-off-white": "#FCF4EA",
     },
+    fontSize: {
+      "heading-xs": "20px",
+      "heading-sm": "24px",
+      "heading-md": "32px",
+      "heading-lg": "48px",
+      "heading-xl": "64px",
+      "paragraph-xs": "14px",
+      "paragraph-sm": "18px",
+    },
+    lineHeight: {
+      tight: "1.1",
+      normal: "1.5",
+      auto: "auto",
+    },
   },
   plugins: [],
 };
