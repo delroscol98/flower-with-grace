@@ -6,11 +6,15 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+    colors: {
+      "primary-dark-green": "#0D4015",
+      "primary-light-green": "#6A9A63",
+      "secondary-dark-pink": "#F6CCC7",
+      "secondary-light-pink": "#F8DFDC",
+      "accent-dark-brown": "#332111",
+      "accent-light-brown": "#A1836A",
+      "neutral-beige": "#FFEFD8",
+      "neutral-off-white": "#FCF4EA",
     },
   },
   plugins: [],
