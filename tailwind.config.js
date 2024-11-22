@@ -11,6 +11,8 @@ module.exports = {
       "primary-light-green": "#6A9A63",
       "secondary-dark-pink": "#F6CCC7",
       "secondary-light-pink": "#F8DFDC",
+      "secondary-blushy-pink": "#CC9586",
+      "secondary-blush-pink": "#E4405F",
       "accent-dark-brown": "#332111",
       "accent-light-brown": "#A1836A",
       "neutral-beige": "#FFEFD8",
