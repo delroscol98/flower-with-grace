@@ -17,6 +17,7 @@ module.exports = {
       "accent-light-brown": "#A1836A",
       "neutral-beige": "#FFEFD8",
       "neutral-off-white": "#FCF4EA",
+      "neutral-white": "#FFF",
     },
     fontSize: {
       "heading-xs": "20px",
