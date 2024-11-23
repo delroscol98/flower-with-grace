@@ -1,3 +1,4 @@
+import Header from "./_components/Header";
 import "./globals.css";
 import { Rufina, Average_Sans } from "next/font/google";
 
@@ -22,7 +23,11 @@ const averageSans = Average_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="">{children}</body>
+      <body className="py-12 px-4 bg-secondary-blushy-pink">
+        <Header />
+
+        {children}
+      </body>
     </html>
   );
 }

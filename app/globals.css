@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hamburgerMenu {
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  position: relative;
+}
+
+.hamburgerMenu::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  transform: translateY(-8px);
+}
+
+.hamburgerMenu::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  transform: translateY(8px);
+}
