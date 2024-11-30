@@ -41,9 +41,11 @@
 .open .hamburgerMenu::before {
   top: 0;
   transform: rotate(225deg);
+  background-color: #332111;
 }
 
 .open .hamburgerMenu::after {
   top: 0;
   transform: rotate(-225deg);
+  background-color: #332111;
 }

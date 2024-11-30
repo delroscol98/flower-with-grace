@@ -1,8 +1,10 @@
 import Image from "next/image";
-import logo from "@/public/logo-white.svg";
+import logoWhite from "@/public/logo-white.svg";
+import logoBrown from "@/public/logo-brown.svg";
 import HamburgerMenu from "./HamburgerMenu";
 import { Rufina } from "next/font/google";
 import { NavigationProvider } from "../_contexts/NavigationContext";
+import Logo from "./Logo";
 
 const rufina = Rufina({
   subsets: ["latin"],
@@ -15,7 +17,7 @@ function Header() {
   return (
     <NavigationProvider>
       <section className="relative py-12 px-4 flex justify-between items-center z-20">
-        <Image className="w-[89px]" src={logo} alt="flower with grace logo" />
+        <Logo />
         <HamburgerMenu />
       </section>
 
