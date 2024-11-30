@@ -12,7 +12,7 @@ function NavigationProvider({ children }) {
   };
 
   return (
-    <NavigationContext.Provider value={{ navOpen, toggleNavMenu }}>
+    <NavigationContext.Provider value={{ navOpen, setNavOpen, toggleNavMenu }}>
       {children}
     </NavigationContext.Provider>
   );
