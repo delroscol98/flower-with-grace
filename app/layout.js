@@ -23,7 +23,7 @@ const averageSans = Average_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="py-12 px-4 bg-secondary-blushy-pink">
+      <body className="bg-secondary-blushy-pink">
         <Header />
 
         {children}
