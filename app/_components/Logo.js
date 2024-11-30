@@ -16,6 +16,7 @@ function Logo() {
         className="w-[89px]"
         src={navOpen ? logoBrown : logoWhite}
         alt="flower with grace logo"
+        priority
       />
     </Link>
   );

@@ -6,7 +6,7 @@ import NavMenu from "./NavMenu";
 function Header() {
   return (
     <NavigationProvider>
-      <section className="relative py-12 px-4 flex justify-between items-center z-20">
+      <section className="relative pt-12 px-4 flex justify-between items-center z-20">
         <Logo />
         <HamburgerMenu />
       </section>
