@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "@/public/logo-white.svg";
 import HamburgerMenu from "./HamburgerMenu";
 import { Rufina } from "next/font/google";
+import { NavigationProvider } from "../_contexts/NavigationContext";
 
 const rufina = Rufina({
   subsets: ["latin"],
@@ -11,9 +12,8 @@ const rufina = Rufina({
 });
 
 function Header() {
-  console.log(rufina);
   return (
-    <>
+    <NavigationProvider>
       <section className="relative py-12 px-4 flex justify-between items-center z-20">
         <Image className="w-[89px]" src={logo} alt="flower with grace logo" />
         <HamburgerMenu />
@@ -30,7 +30,7 @@ function Header() {
           <li>Contact Us</li>
         </ul>
       </section>
-    </>
+    </NavigationProvider>
   );
 }
 
