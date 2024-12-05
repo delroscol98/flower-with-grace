@@ -11,7 +11,7 @@ function Logo() {
   const { navOpen, setNavOpen } = useNavigation();
 
   return (
-    <Link href="/" onClick={() => setNavOpen(false)}>
+    <Link href="/" onClick={() => setNavOpen(false)} className="z-20">
       <Image
         className="w-[89px]"
         src={navOpen ? logoBrown : logoWhite}

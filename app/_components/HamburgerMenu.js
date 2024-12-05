@@ -9,7 +9,7 @@ function HamburgerMenu() {
       <article
         className={`${
           navOpen ? "open" : null
-        } flex items-center px-1 py-2 h-6 mr-3 hover:cursor-pointer`}
+        } flex items-center px-1 py-2 h-6 mr-3 hover:cursor-pointer z-20`}
         onClick={toggleNavMenu}
       >
         <input type="checkbox" id="hamburgerMenu__checkbox" hidden />

@@ -24,8 +24,10 @@ const averageSans = Average_Sans({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-secondary-blushy-pink">
-        <Header />
+      <body>
+        <NavigationProvider>
+          <Header />
+        </NavigationProvider>
 
         {children}
       </body>
