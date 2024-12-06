@@ -13,7 +13,6 @@ function Logo() {
   const pathname = usePathname();
 
   let logo = logoWhite;
-
   if (pathname === "/gallery" || pathname === "/contact") logo = logoPink;
   if (pathname === "/weddings" || navOpen) logo = logoBrown;
 

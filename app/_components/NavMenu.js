@@ -15,8 +15,8 @@ function NavMenu() {
   const { navOpen, toggleNavMenu } = useNavigation();
   return (
     <section
-      className={`absolute top-0 bg-neutral-beige w-full h-full text-center z-10 grid items-center justify-center -translate-y-full ${
-        navOpen ? "-translate-y-0" : null
+      className={`absolute top-0 bg-neutral-beige w-full h-full text-center z-10 grid items-center justify-center  ${
+        navOpen ? "-translate-y-0" : "-translate-y-full"
       } transition-all`}
     >
       <ul
