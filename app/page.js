@@ -1,5 +1,6 @@
 import { Rufina } from "next/font/google";
-import Button from "./_components/Button";
+import CtaButton from "./_components/CtaButton";
+import Link from "next/link";
 
 const rufina = Rufina({
   subsets: ["latin"],
@@ -13,7 +14,7 @@ export default function Home() {
     <>
       <section className="bg-secondary-blushy-pink pt-[52px] px-4 pb-[30px]">
         <h1
-          className={`${rufina.className} uppercase text-neutral-white text-heading-md max-[374px]:text-heading-sm`}
+          className={`${rufina.className} uppercase text-neutral-white text-heading-md `}
         >
           <span className="block text-end drop-shadow-[0_2px_4px_rgba(0,0,0,0.25)]">
             Transforming
@@ -25,7 +26,9 @@ export default function Home() {
             blooming reality
           </span>
         </h1>
-        <Button>Inquire now</Button>
+        <Link href="/contact">
+          <CtaButton>Inquire now</CtaButton>
+        </Link>
       </section>
     </>
   );

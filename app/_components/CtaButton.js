@@ -7,14 +7,14 @@ const averageSans = Average_Sans({
   subsets: ["latin"],
 });
 
-function Button({ children }) {
+function CtaButton({ children }) {
   return (
     <button
-      className={`${averageSans.className} bg-secondary-dark-pink py-2 px-2 rounded-lg text-paragraph-sm max-[374px]:text-paragraph-xs mt-[11px]`}
+      className={`${averageSans.className} bg-secondary-dark-pink py-2 px-2 rounded-lg text-paragraph-sm  mt-[11px] text-accent-dark-brown`}
     >
       {children}
     </button>
   );
 }
 
-export default Button;
+export default CtaButton;

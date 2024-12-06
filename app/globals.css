@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media screen and (width < 375px) {
+  html {
+    font-size: 85%;
+  }
+}
+
 .hamburgerMenu {
   width: 32px;
   height: 2px;
