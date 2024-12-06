@@ -15,6 +15,7 @@ function Header() {
   if (pathname === "/about") backgroundColor = "bg-accent-light-brown";
   if (pathname === "/gallery" || pathname === "/contact")
     backgroundColor = "bg-neutral-off-white";
+
   return (
     <>
       <section
