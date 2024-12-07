@@ -26,7 +26,7 @@ module.exports = {
       "heading-xl": "4rem",
       "paragraph-sm": ".875rem",
       paragraph: "1.125rem",
-      "paragraph-bold": "1.25rem",
+      "paragraph-lg": "1.25rem",
     },
     lineHeight: {
       tight: "1.1",

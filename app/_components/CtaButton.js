@@ -1,11 +1,12 @@
+import Link from "next/link";
 import { averageSans } from "../_fonts/Fonts";
 
-function CtaButton({ children }) {
+function CtaButton({ children, page }) {
   return (
     <button
-      className={`${averageSans.className} bg-secondary-dark-pink py-2 px-3 rounded-lg text-paragraph-sm  mt-[11px] text-accent-dark-brown`}
+      className={`${averageSans.className} bg-gradient-to-b from-neutral-off-white to-secondary-dark-pink py-2 px-4 rounded-lg text-paragraph-sm text-accent-dark-brown`}
     >
-      {children}
+      <Link href={page}>{children}</Link>
     </button>
   );
 }
