@@ -1,15 +1,8 @@
 "use client";
 
-import { Rufina } from "next/font/google";
 import { useNavigation } from "../_contexts/NavigationContext";
 import Link from "next/link";
-
-const rufina = Rufina({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  style: "normal",
-  display: "swap",
-});
+import { rufina } from "../_fonts/Fonts";
 
 function NavMenu() {
   const { navOpen, toggleNavMenu } = useNavigation();

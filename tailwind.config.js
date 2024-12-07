@@ -20,13 +20,13 @@ module.exports = {
       "neutral-white": "#FFF",
     },
     fontSize: {
-      "heading-xs": "1.25rem",
       "heading-sm": "1.5rem",
       "heading-md": "2rem",
       "heading-lg": "3rem",
       "heading-xl": "4rem",
-      "paragraph-xs": ".875rem",
-      "paragraph-sm": "1.125rem",
+      "paragraph-sm": ".875rem",
+      paragraph: "1.125rem",
+      "paragraph-bold": "1.25rem",
     },
     lineHeight: {
       tight: "1.1",
