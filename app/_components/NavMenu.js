@@ -5,12 +5,10 @@ import Link from "next/link";
 import { rufina } from "../_fonts/Fonts";
 
 function NavMenu() {
-  const { navOpen, toggleNavMenu } = useNavigation();
+  const { toggleNavMenu } = useNavigation();
   return (
     <section
-      className={`absolute top-0 bg-neutral-beige w-full h-full text-center z-10 grid items-center justify-center  ${
-        navOpen ? "-translate-y-0" : "-translate-y-full invisible"
-      } transition-all`}
+      className={`top-0 bg-neutral-beige w-full h-full text-center z-10 grid items-center justify-center fixed`}
     >
       <ul
         className={`${rufina.className} flex flex-col gap-5 text-heading-md text-accent-dark-brown`}

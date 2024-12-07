@@ -19,13 +19,13 @@ function Header() {
   return (
     <>
       <section
-        className={`${backgroundColor} relative pt-12 px-4 flex justify-between items-center transition`}
+        className={`${backgroundColor} relative pt-12 px-4 flex justify-between items-center`}
       >
         <Logo />
         <HamburgerMenu />
       </section>
 
-      <NavMenu />
+      {navOpen && <NavMenu />}
     </>
   );
 }

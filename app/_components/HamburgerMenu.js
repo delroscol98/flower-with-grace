@@ -19,7 +19,7 @@ function HamburgerMenu() {
     <>
       <button
         className={`${
-          navOpen ? "open" : null
+          navOpen && "open fixed top-12 right-4 translate-y-3/4"
         } flex items-center px-1 py-2 h-6 hover:cursor-pointer z-20`}
         onClick={toggleNavMenu}
       >

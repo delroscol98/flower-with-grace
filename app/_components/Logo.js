@@ -17,7 +17,11 @@ function Logo() {
   if (pathname === "/weddings" || navOpen) logo = logoBrown;
 
   return (
-    <Link href="/" onClick={() => setNavOpen(false)} className="z-20">
+    <Link
+      href="/"
+      onClick={() => setNavOpen(false)}
+      className={`z-20 ${navOpen && "fixed top-12 left-4"}`}
+    >
       <Image
         className="w-[89px]"
         src={logo}
