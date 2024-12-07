@@ -17,7 +17,7 @@ function HamburgerMenu() {
       "bg-accent-dark-brown before:bg-accent-dark-brown after:bg-accent-dark-brown";
   return (
     <>
-      <article
+      <button
         className={`${
           navOpen ? "open" : null
         } flex items-center px-1 py-2 h-6 hover:cursor-pointer z-20`}
@@ -30,7 +30,7 @@ function HamburgerMenu() {
             className={`hamburgerMenu ${hamburgerMenuColor}`}
           ></span>
         </label>
-      </article>
+      </button>
     </>
   );
 }

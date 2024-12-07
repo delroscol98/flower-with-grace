@@ -9,7 +9,7 @@ function NavMenu() {
   return (
     <section
       className={`absolute top-0 bg-neutral-beige w-full h-full text-center z-10 grid items-center justify-center  ${
-        navOpen ? "-translate-y-0" : "-translate-y-full"
+        navOpen ? "-translate-y-0" : "-translate-y-full invisible"
       } transition-all`}
     >
       <ul
