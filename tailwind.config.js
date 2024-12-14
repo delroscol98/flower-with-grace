@@ -14,7 +14,7 @@ module.exports = {
       "secondary-blushy-pink": "#CC9586",
       "secondary-blush-pink": "#E4405F",
       "accent-dark-brown": "#332111",
-      "accent-light-brown": "#A1836A",
+      "accent-light-brown": "#D0A27D",
       "neutral-beige": "#FFEFD8",
       "neutral-off-white": "#FCF4EA",
       "neutral-white": "#FFF",
