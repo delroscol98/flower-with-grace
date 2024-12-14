@@ -100,7 +100,7 @@ export default function Home() {
               all my family and friends still admire the beautiful flowers from
               my wedding!”
             </p>
-            <p className="mt-11">Michaela & Sam</p>
+            <p className="mt-5">+ Michaela & Sam</p>
           </article>
         </article>
 
