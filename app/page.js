@@ -50,7 +50,7 @@ export default function Home() {
             </strong>
           </p>
 
-          <article className={`${averageSans.className} grid gap-3`}>
+          <article className={`${averageSans.className} grid gap-4`}>
             <p>
               Searching for a floral designer who understands your vision and
               will work with you to bring it to life? Look no further!{" "}
@@ -93,12 +93,11 @@ export default function Home() {
               made the experience so personal and warm. We discussed my vision
               board, Pinterest inspirations, and colour themes, and she
               thoughtfully asked me questions to ensure we were on on the same
-              page for each bouquet or buttonhole.
-              <br /> I felt confident leaving the flowers in her capable hands
-              as she understood my dream arrangements and was motivated to help
-              my special day look beautiful. Thank you Abby for your hard work,
-              all my family and friends still admire the beautiful flowers from
-              my wedding!”
+              page for each bouquet or buttonhole. I felt confident leaving the
+              flowers in her capable hands as she understood my dream
+              arrangements and was motivated to help my special day look
+              beautiful. Thank you Abby for your hard work, all my family and
+              friends still admire the beautiful flowers from my wedding!”
             </p>
             <p className="mt-5">+ Michaela & Sam</p>
           </article>
