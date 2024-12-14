@@ -1,8 +1,8 @@
 import Link from "next/link";
-import InstagramIcon from "./InstagramIcon";
-import FacebookIcon from "./FacebookIcon";
 import Image from "next/image";
 import logoPink from "@/public/logo-pink.svg";
+import FacebookIcon from "@/public/facebook-icon.svg";
+import InstagramIcon from "@/public/instagram-icon.svg";
 import { averageSans } from "../_fonts/Fonts";
 
 function Footer() {
@@ -18,10 +18,10 @@ function Footer() {
         </p>
         <article className="flex justify-center gap-4">
           <a href="https://www.instagram.com/flowerwithgrace?igsh=NzJjcmxybW83Z29u">
-            <InstagramIcon />
+            <Image src={InstagramIcon} alt="instagram icon" />
           </a>
           <a href="https://www.facebook.com/share/fhGHvhprHdfHFaTQ/?mibextid=qi2Omg">
-            <FacebookIcon />
+            <Image src={FacebookIcon} alt="facebook icon" />
           </a>
         </article>
       </article>

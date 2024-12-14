@@ -2,13 +2,10 @@ import CtaButton from "./_components/CtaButton";
 import home1 from "@/public/home-1.jpeg";
 import home2 from "@/public/home-2.jpeg";
 import reviews1 from "@/public/reviews-1.jpeg";
-import logoPink from "@/public/logo-pink.svg";
 import Image from "next/image";
 import { averageSans, rufina } from "./_fonts/Fonts";
 import RoundedText from "./_components/RoundedText";
-import FacebookIcon from "./_components/FacebookIcon";
-import InstagramIcon from "./_components/InstagramIcon";
-import Link from "next/link";
+
 import Footer from "./_components/Footer";
 
 export default function Home() {

@@ -1,6 +1,4 @@
-function FacebookIcon() {
-  return (
-    <svg
+<svg
       width="58"
       height="58"
       viewBox="0 0 58 58"
@@ -16,7 +14,3 @@ function FacebookIcon() {
         fill="white"
       />
     </svg>
-  );
-}
-
-export default FacebookIcon;
