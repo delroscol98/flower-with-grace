@@ -73,12 +73,12 @@ export default function Home() {
       </section>
 
       <section className="bg-neutral-beige pt-14 px-4 pb-8">
-        <h2 className={`${rufina.className} text-heading-md`}>Reviews</h2>
+        <h2 className={`${rufina.className} text-heading-md mb-7`}>Reviews</h2>
 
         <article className="mb-10">
-          <article className="relative">
+          <article className="relative overflow-x-clip">
             <Image
-              className="h-[500px] rounded-t-full rounded-b-full"
+              className="rounded-t-full rounded-b-full"
               src={reviews1}
               alt="A smiling bride with long, dark hair, wearing a lace wedding dress with long sleeves, holds a lush bouquet of white flowers and greenery. She stands in a softly lit indoor setting with wooden doors in the background, showcasing an elegant and joyful atmosphere."
             />
