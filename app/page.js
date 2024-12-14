@@ -2,9 +2,14 @@ import CtaButton from "./_components/CtaButton";
 import home1 from "@/public/home-1.jpeg";
 import home2 from "@/public/home-2.jpeg";
 import reviews1 from "@/public/reviews-1.jpeg";
+import logoPink from "@/public/logo-pink.svg";
 import Image from "next/image";
 import { averageSans, rufina } from "./_fonts/Fonts";
 import RoundedText from "./_components/RoundedText";
+import FacebookIcon from "./_components/FacebookIcon";
+import InstagramIcon from "./_components/InstagramIcon";
+import Link from "next/link";
+import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
@@ -83,7 +88,9 @@ export default function Home() {
             <RoundedText />
           </article>
 
-          <article className={`${averageSans.className} mt-20`}>
+          <article
+            className={`${averageSans.className} mt-20 text-accent-dark-brown`}
+          >
             <p>
               “I was so blessed to have Abby do the flowers for my wedding. She
               made the experience so personal and warm. We discussed my vision
@@ -102,6 +109,8 @@ export default function Home() {
 
         <CtaButton page="/weddings">Our Pricing Guide</CtaButton>
       </section>
+
+      <Footer />
     </>
   );
 }
