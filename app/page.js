@@ -34,6 +34,7 @@ export default function Home() {
             className="h-[400px] object-cover rounded-t-full"
             src={home1}
             alt="Close-up of a bride holding a bouquet of white roses, baby's breath, and greenery, surrounded by more bouquets held by others in dark attire."
+            priority={true}
           />
           <Image
             className="h-[400px] object-cover rounded-b-full"
@@ -82,7 +83,11 @@ export default function Home() {
               src={reviews1}
               alt="A smiling bride with long, dark hair, wearing a lace wedding dress with long sleeves, holds a lush bouquet of white flowers and greenery. She stands in a softly lit indoor setting with wooden doors in the background, showcasing an elegant and joyful atmosphere."
             />
-            <RoundedText />
+            <RoundedText
+              fill={"#332111"}
+              xPosition="right-[-2rem]"
+              yPosition="bottom-[-5rem]"
+            />
           </article>
 
           <article

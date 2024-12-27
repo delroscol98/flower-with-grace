@@ -22,12 +22,7 @@ function Logo() {
       onClick={() => setNavOpen(false)}
       className={`z-20 ${navOpen && "fixed top-12 left-4"}`}
     >
-      <Image
-        className="w-[89px]"
-        src={logo}
-        alt="flower with grace logo"
-        priority
-      />
+      <Image className="w-[89px]" src={logo} alt="flower with grace logo" />
     </Link>
   );
 }
