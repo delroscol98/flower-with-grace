@@ -110,8 +110,6 @@ export default function Home() {
 
         <CtaButton page="/weddings">Our Pricing Guide</CtaButton>
       </section>
-
-      <Footer />
     </>
   );
 }

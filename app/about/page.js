@@ -30,6 +30,7 @@ export default function AboutPage() {
           className="rounded-t-full rounded-b-full h-[555px] object-cover object-left"
           src={about1}
           alt="Flower with Grace owner and creative director carefully arranges a hanging installation of flowers on a blank white wall behind a white table that has been decorated with candles and vases filled with flowers."
+          priority={true}
         />
 
         <article
@@ -127,8 +128,6 @@ export default function AboutPage() {
 
         <CtaButton page={"/contact"}>Get in touch</CtaButton>
       </section>
-
-      <Footer />
     </>
   );
 }
