@@ -5,6 +5,8 @@ import gallery4 from "@/public/gallery-4.jpeg";
 import gallery5 from "@/public/gallery-5.jpeg";
 import gallery6 from "@/public/gallery-6.jpeg";
 import Image from "next/image";
+import { rufina } from "../_fonts/Fonts";
+import CtaButton from "../_components/CtaButton";
 
 export default function GalleryPage() {
   const images = [
@@ -41,7 +43,12 @@ export default function GalleryPage() {
   ];
 
   return (
-    <section className="bg-neutral-off-white px-5">
+    <section className="bg-neutral-off-white pt-6 px-4 pb-8">
+      <h1
+        className={`${rufina.className} text-center text-heading-md uppercase mb-10 text-secondary-blush-pink`}
+      >
+        Gallery
+      </h1>
       <article className="grid gap-4">
         {images.map((image) => (
           <Image
@@ -51,6 +58,10 @@ export default function GalleryPage() {
             alt={image.alt}
           />
         ))}
+      </article>
+
+      <article className="text-center mt-10">
+        <CtaButton page={"/contact"}>Book now</CtaButton>
       </article>
     </section>
   );
